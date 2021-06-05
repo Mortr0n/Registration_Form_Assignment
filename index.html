@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Registration Form</title>
+        <meta name="description" content="My first HTML only attempt at a registration form.">
+    </head>
+
+    <body>
+        <h1>My Registration Form</h1>
+        <table>
+            
+            <tbody>
+                <tr>
+                    <td><label for="first_name">First Name:</label></td>
+                    <td><input type="text" id="first_name" name="first_name"></td>
+                </tr>                
+                <tr>
+                    <td><label for="last_name">Last Name:</label></td>
+                    <td><input type="text" id="last_name" name="last_name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="password_confirm">Confirm Password:</label></td>
+                    <td><input type="password" id="password_confirm" name="password_confirm"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Birthdate:</label></td>
+                    <td><input type="date" id="date" name="birthdate" value="1980-03-25"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <h2>
+                            <u>Gender</u>
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="male">
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="female">
+                        <label for="other">Other:</label>
+                        <input type="radio" id="other" name="other">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <h2>
+                            <label for="description">
+                                <u>A short description about yourself</u>
+                            </label>
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <textarea name="description" id="description" rows="8" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="language">Favorite Language</label>  
+                    </td>
+                    <td>
+                        <select name="language" id="language">
+                            <option value="notSelected">Please Select</option>
+                            <option value="javascript">Javascript</option>
+                            <option value="csharp">C#</option>
+                            <option value="python">Python</option>
+                            <option value="java">Java</option>
+                            <option value="C">C</option>
+                            <option value="c++">C++</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                
+            </tbody>
+            
+        </table>
+        <br>
+        
+        <input type="submit" value="Submit"> 
+    </body>
+</html>
